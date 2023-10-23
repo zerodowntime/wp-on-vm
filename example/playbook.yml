@@ -1,0 +1,24 @@
+#- hosts: all
+#  become: true
+#  gather_facts: False
+#  roles:
+#    - mysql
+#    - apache+php
+#    - wp
+
+- hosts: mysql
+  become: true
+  gather_facts: False
+  vars_files:
+    - vars/default.yml
+  roles:
+    - mysql
+
+- hosts: wordpress
+  become: true
+  gather_facts: False
+  vars_files:
+    - vars/default.yml
+  roles:
+    - apache+php
+    - wp
