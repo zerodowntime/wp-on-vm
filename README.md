@@ -20,7 +20,7 @@ Przygotowanie i automatyzacja infrastruktury pod CMS WordPress z wykorzystaniem 
 
 Finalnie chcemy otrzymać kod który automatycznie postawi nam infrastrukturę kilku instancji WordPress. Instancje powinny być odpowiednio zabezpieczone, uzbrojone w pluginy i system automatycznych backupów. Docelowo infrastruktura będzie hostowana na AWS lub GCP (tbd)
 
-## Część pierwsza - Virtualbox + Vagrant
+## Virtualbox + Vagrant
 
 #### 1. Virtualbox
 1.1 Czym jest Virtualbox?
@@ -108,7 +108,7 @@ end
 
 </details>
 
-## Część druga - Ansible
+## Ansible
 
 1. Czym jest Ansible?
 - https://docs.ansible.com/ansible/latest/index.html
@@ -122,18 +122,45 @@ end
 4. Ansible - dokumentacja
 - https://docs.ansible.com/
 
-## Część trzecia - LAMP/LEMP
+5. Bonus - Venv
+- https://docs.python.org/3/library/venv.html
+
+## LAMP/LEMP
 
 1. Czym jest LAMP/LEMP?
 - https://datasciencedojo.com/blog/lamp-vs-lemp/
 
 2. Instalacja
 2.1. Instalacja LAMP
-- https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
+- Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
+- Centos: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7
 
 2.2. Instalacja LEMP
-- https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+- Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+- Centos: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7
 
+## Wordpress
 
+1. Czym jest Wordpress?
+- https://pl.wordpress.org/
+
+2. Instalacja i konfiguracja
+- Ubuntu: https://www.digitalocean.com/community/tutorials/install-wordpress-on-ubuntu
+- Centos: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7
+
+## Certyfikaty
+
+1. Czym jest Let's encrypt / Certbot?
+- https://letsencrypt.org/getting-started/
+
+2. Dokumentacja
+- https://letsencrypt.org/docs/
+
+3. Instalacja i konfiguracja
+- https://www.inmotionhosting.com/support/website/ssl/lets-encrypt-ssl-ubuntu-with-certbot/
+
+## Pluginy WP
+
+1. TBD
 
 
