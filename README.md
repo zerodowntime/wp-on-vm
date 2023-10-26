@@ -13,7 +13,7 @@ Przygotowanie i automatyzacja infrastruktury pod CMS WordPress z wykorzystaniem 
 
 - Virtualbox + Vagrant
 - Ansible
-- LAMP/LEMP
+- LEMP
 - Wordpress
 - Let's Encrypt/Certbot
 - Pluginy WP
@@ -22,22 +22,23 @@ Finalnie chcemy otrzymać kod który automatycznie postawi nam infrastrukturę k
 
 ## Virtualbox + Vagrant
 
-#### 1. Virtualbox
-1.1 Czym jest Virtualbox?
+### Virtualbox
+1 Czym jest Virtualbox?
 - https://www.virtualbox.org/wiki/VirtualBox
 
-1.2 Instalacja + Extension Pack
+1 Instalacja + Extension Pack
 - https://www.virtualbox.org/wiki/Downloads
 
-#### 2. Vagrant
-1.1 Czym jest Vagrant?
+### Vagrant
+1 Czym jest Vagrant?
 - https://developer.hashicorp.com/vagrant/intro
 
-1.2 Instalacja
+1 Instalacja
 - https://developer.hashicorp.com/vagrant/downloads
 
-1.3 Vagrantfile
+1 Vagrantfile
 - https://developer.hashicorp.com/vagrant/docs/vagrantfile
+
 
 <details>
   <summary>Przykładowy Vagrantfile</summary>
@@ -108,7 +109,10 @@ end
 
 </details>
 
-## Ansible
+ ### Venv
+- https://docs.python.org/3/library/venv.html
+
+### Ansible
 
 1. Czym jest Ansible?
 - https://docs.ansible.com/ansible/latest/index.html
@@ -122,20 +126,12 @@ end
 4. Ansible - dokumentacja
 - https://docs.ansible.com/
 
-5. Bonus - Venv
-- https://docs.python.org/3/library/venv.html
+## LEMP
 
-## LAMP/LEMP
+1. Czym jest LEMP?
+- https://www.digitalocean.com/community/tutorials/what-is-lemp
 
-1. Czym jest LAMP/LEMP?
-- https://datasciencedojo.com/blog/lamp-vs-lemp/
-
-2. Instalacja
-2.1. Instalacja LAMP
-- Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
-- Centos: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7
-
-2.2. Instalacja LEMP
+2. Instalacja LEMP
 - Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
 - Centos: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7
 
