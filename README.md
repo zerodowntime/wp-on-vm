@@ -12,6 +12,7 @@ Projekt przygotowawczy na jesienne praktyki 2023.
 Przygotowanie i automatyzacja infrastruktury pod CMS WordPress z wykorzystaniem narzędzi:
 
 - Virtualbox + Vagrant
+- Venv
 - Ansible
 - LEMP
 - Wordpress
