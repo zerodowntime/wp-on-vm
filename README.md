@@ -26,19 +26,21 @@ Finalnie chcemy otrzymać kod który automatycznie postawi nam infrastrukturę k
 1 Czym jest Virtualbox?
 - https://www.virtualbox.org/wiki/VirtualBox
 
-1 Instalacja + Extension Pack
+2 Instalacja + Extension Pack
 - https://www.virtualbox.org/wiki/Downloads
 
 ### Vagrant
 1 Czym jest Vagrant?
 - https://developer.hashicorp.com/vagrant/intro
 
-1 Instalacja
+2 Instalacja
 - https://developer.hashicorp.com/vagrant/downloads
 
-1 Vagrantfile
+3 Vagrantfile
 - https://developer.hashicorp.com/vagrant/docs/vagrantfile
 
+4 Vagrant Boxes
+- https://app.vagrantup.com/boxes/search
 
 <details>
   <summary>Przykładowy Vagrantfile</summary>
