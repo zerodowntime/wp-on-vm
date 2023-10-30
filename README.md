@@ -22,25 +22,36 @@ Przygotowanie i automatyzacja infrastruktury pod CMS WordPress z wykorzystaniem 
 
 Finalnie chcemy otrzymać kod który automatycznie postawi nam infrastrukturę kilku instancji WordPress. Instancje powinny być odpowiednio zabezpieczone, uzbrojone w pluginy i system automatycznych backupów. Docelowo infrastruktura będzie hostowana na AWS lub GCP (tbd)
 
+### GIT
+
+- https://davelms.medium.com/learn-git-basics-in-10-minutes-3b45b11a58d
 
 ### Virtualbox
-1 Czym jest Virtualbox?
+
+#### Czym jest Virtualbox?
+
 - https://www.virtualbox.org/wiki/VirtualBox
 
-2 Instalacja + Extension Pack
+#### Instalacja + Extension Pack
+
 - https://www.virtualbox.org/wiki/Downloads
 
 ### Vagrant
-1 Czym jest Vagrant?
+
+#### Czym jest Vagrant?
+
 - https://developer.hashicorp.com/vagrant/intro
 
-2 Instalacja
+#### Instalacja
+
 - https://developer.hashicorp.com/vagrant/downloads
 
-3 Vagrantfile
+#### Vagrantfile
+
 - https://developer.hashicorp.com/vagrant/docs/vagrantfile
 
-4 Vagrant Boxes
+#### Vagrant Boxes
+
 - https://app.vagrantup.com/boxes/search
 
 <details>
@@ -113,49 +124,61 @@ end
 </details>
 
 ### Venv
+
 - https://docs.python.org/3/library/venv.html
 
 ### Ansible
 
-1. Czym jest Ansible?
+#### Czym jest Ansible?
+
 - https://docs.ansible.com/ansible/latest/index.html
 
-2. Instalacja
+#### Instalacja
+
 - https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible
 
-3. Pierwsze kroki
+#### Pierwsze kroki
+
 - https://docs.ansible.com/ansible/latest/getting_started/index.html
 
-4. Ansible - dokumentacja
+#### Ansible - dokumentacja
+
 - https://docs.ansible.com/
 
 ### LEMP
 
-1. Czym jest LEMP?
+#### Czym jest LEMP?
+
 - https://www.digitalocean.com/community/tutorials/what-is-lemp
 
-2. Instalacja LEMP
+#### Instalacja LEMP
+
 - Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
 - Centos: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7
 
 ### Wordpress
 
-1. Czym jest Wordpress?
+#### Czym jest Wordpress?
+
 - https://pl.wordpress.org/
 
-2. Instalacja i konfiguracja
+#### Instalacja i konfiguracja
+
 - Ubuntu: https://www.digitalocean.com/community/tutorials/install-wordpress-on-ubuntu
 - Centos: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7
 
 ### Certyfikaty
 
-1. Czym jest Let's encrypt / Certbot?
+#### Czym jest Let's encrypt / Certbot?
+
 - https://letsencrypt.org/getting-started/
 
-2. Dokumentacja
+#### Dokumentacja
+
 - https://letsencrypt.org/docs/
 
-3. Instalacja i konfiguracja
+#### Instalacja i konfiguracja
+
 - https://www.inmotionhosting.com/support/website/ssl/lets-encrypt-ssl-ubuntu-with-certbot/
 
 ### Pluginy WP
