@@ -24,7 +24,9 @@ Finalnie chcemy otrzymać kod który automatycznie postawi nam infrastrukturę k
 
 ### GIT
 
-- https://davelms.medium.com/learn-git-basics-in-10-minutes-3b45b11a58d
+#### Tutorial 
+
+- https://medium.com/geekculture/learn-to-use-git-in-10-minutes-53e9a17bf8c2
 
 ### Virtualbox
 
